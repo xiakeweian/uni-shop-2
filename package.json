@@ -1,0 +1,27 @@
+{
+  "name": "uni-shop-2",
+  "version": "1.0.0",
+  "description": "study uni-app",
+  "main": "main.js",
+  "dependencies": {
+    "@escook/request-miniprogram": "^0.2.1",
+    "mock-api": "^0.1.5",
+    "mocker-api": "^2.9.5",
+    "mockjs": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiakeweian/uni-shop-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiakeweian/uni-shop-2/issues"
+  },
+  "homepage": "https://github.com/xiakeweian/uni-shop-2#readme"
+}

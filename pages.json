@@ -34,8 +34,46 @@
                 "enablePullDownRefresh": false
             }
             
+        },
+        {
+            "path" : "components/mySearch/mySearch",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
         }
     ],
+	"subPackages": [
+		{
+			"root":"subpkg",
+			"pages":[
+                {
+                    "path" : "goodsDetail/goodsDetail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "goods_list/goods_list",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		},
+		{
+			"root":"catepkg",
+			"pages":[]
+		}
+	],
 	"tabBar":{
 		"selectedColor":"#40a9ff",
 		"list":[

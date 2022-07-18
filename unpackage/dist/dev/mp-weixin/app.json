@@ -3,9 +3,18 @@
     "pages/home/home",
     "pages/cate/cate",
     "pages/cart/cart",
-    "pages/my/my"
+    "pages/my/my",
+    "components/mySearch/mySearch"
   ],
-  "subPackages": [],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "goodsDetail/goodsDetail",
+        "goods_list/goods_list"
+      ]
+    }
+  ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
